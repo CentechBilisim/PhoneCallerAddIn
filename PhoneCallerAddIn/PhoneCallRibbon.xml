@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="OnLoad">
+  <!-- RIBBON önce -->
+  <ribbon>
+    <tabs>
+      <tab idMso="TabMail">
+        <group id="grpMyTools" label="Arama">
+          <button id="btnOpenForm"
+                  label="Gönderen Kişiyi Ara"
+                  size="large"
+                  onAction="OnOpenForm"
+                  screentip="Gönderen Kişiyi Ara"
+				  imageMso="Call" />
+        </group>
+      </tab>
+      <tab idMso="TabReadMessage">
+        <group id="grpMyToolsRead" label="Arama">
+          <button id="btnOpenFormRead"
+                  label="Gönderen Kişiyi Ara"
+                  size="large"
+                  onAction="OnOpenForm" 
+				  imageMso="Call" />
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+
+  <!-- Sonra contextMenus -->
+  <contextMenus>
+    <contextMenu idMso="ContextMenuMailItem">
+      <button id="ctxOpenForm"
+              label="Gönderen Kişiyi Ara"
+              onAction="OnOpenForm"
+              insertAfterMso="Copy" 
+              imageMso="Call" />
+    </contextMenu>
+
+    <contextMenu idMso="ContextMenuReadOnlyMailItem">
+      <button id="ctxOpenFormRead"
+              label="Gönderen Kişiyi Ara"
+              onAction="OnOpenForm"
+              insertAfterMso="Copy"
+			  imageMso="Call" />
+    </contextMenu>
+  </contextMenus>
+</customUI>
