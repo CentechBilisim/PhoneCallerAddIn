@@ -56,8 +56,9 @@
             this.LblAbout.Padding = new System.Windows.Forms.Padding(10);
             this.LblAbout.Size = new System.Drawing.Size(572, 157);
             this.LblAbout.TabIndex = 1;
-            this.LblAbout.Text = "CENTECH Bilişim tarafından 2025 yılında geliştirilen bu Outlook eklentisi, E-post" +
-    "a gönderen kişiyi tek tıkla arama imkânı sunar.\r\n\r\nhttps://centech.com.tr";
+            this.LblAbout.Text = "CENTECH Bilişim tarafından 2025 yılında açık kaynaklı geliştirilen bu Outlook ekl" +
+    "entisi, E-posta gönderen kişiyi tek tıkla arama imkânı sunar.\r\n\r\nhttps://centech" +
+    ".com.tr";
             this.LblAbout.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // BtnClose
